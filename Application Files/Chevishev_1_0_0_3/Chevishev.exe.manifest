@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Chevishev.exe" version="1.0.0.3" publicKeyToken="bae526c8b0c599e4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Chevishev" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Chevishev.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Chevishev.exe" size="19904">
+      <assemblyIdentity name="Chevishev" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FOJfDpvJlOU4EUPSy98FTdSiz9/wnry/1Gw4TwMCmVQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Chevishev.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JOSEMANUEL\medin" issuerKeyHash="3666e55f667d30d5b7d392e5fd0990de4e15df45" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>A0jgBWYzt5YG/JfFIhCqQ8QdzSL1hSX7maSSG+s9L30=</DigestValue></Reference></SignedInfo><SignatureValue>V+84kjoois7uKG5dL56E35rs/7MJgB8As9IMfpVjjp7KNmA/TzInC0SwvuKrqReeit1dtNm2DDL2MsxKix6zsP6PKTyb9ELC9oAkNN5NgKUEXHns1fR49zQxKHv4nwuGbRe+2LphNtAE0gPiLDZ2XX07R3CMA+EZQbJ7NNdgugs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>42pGwcJuOzfHV1csFrJoHxznRkSBNc/dTLNyqjDUe20Fn077+P0pHxPPXdTI5MCOT9GklrDbTd1mNFKyhbaqo5GDkDr0/WiCtH5jzKikWEkFqjh/5dolcQSeEr9yq++6HqJcEQa/xNiKxpxZn08blAB1A151m/BXT7Rpaqg7EG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7d2f3deb1b92a499fb2585f522cd1dc443aa1022c597fc0696b7336605e04803" Description="" Url=""><as:assemblyIdentity name="Chevishev.exe" version="1.0.0.3" publicKeyToken="bae526c8b0c599e4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JOSEMANUEL\medin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lOo6bRXwsoLUBqSm00dnri7rVhHdnTwSYMxQ1w+Qqvk=</DigestValue></Reference></SignedInfo><SignatureValue>0tY6jcaVWqoHnEspuLfKPuuDlaZj7TtjKdG4w8URMogrfBdGT/Zqcit+vLxKm/vnn0Ip66OckCzB3EPppDdvPucZRLcUaXrZivPrAW5tDQBBJM3kyKc7WkZdFdmstt8T1IXcOVS2VUGE2MWxSY/cPLQvH7agF8HqZrD13ciB178=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>42pGwcJuOzfHV1csFrJoHxznRkSBNc/dTLNyqjDUe20Fn077+P0pHxPPXdTI5MCOT9GklrDbTd1mNFKyhbaqo5GDkDr0/WiCtH5jzKikWEkFqjh/5dolcQSeEr9yq++6HqJcEQa/xNiKxpxZn08blAB1A151m/BXT7Rpaqg7EG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQMhLZ024QwJpMoX9ZGNCXBTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASgBPAFMARQBNAEEATgBVAEUATABcAG0AZQBkAGkAbjAeFw0yMjA3MjgyMzQzMDNaFw0yMzA3MjkwNTQzMDNaMCsxKTAnBgNVBAMeIABKAE8AUwBFAE0AQQBOAFUARQBMAFwAbQBlAGQAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjakbBwm47N8dXVywWsmgfHOdGRIE1z91Ms3KqMNR7bQWfTvv4/SkfE89d1MjkwI5P0aSWsNtN3WY0UrKFtqqjkYOQOvT9aIK0fmPMqKRYSQWqOH/l2iVxBJ4Sv3Kr77oeolwRBr/E2IrGnFmfTxuUAHUDXnWb8FdPtGlqqDsQbQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEEMLA2L1DHCvBuCOrh8ZIt7EoqOwmpFhsKdf1ncKainxT8o3rCA44MO1W6RUF/RdB5qZ26IRn/qC9+3js64Irww7bTy/EeAnh+kHfN7Joht9W2K3NX+QO0frX5Y/9FsxhrItDhGj9ncPu4rdbrv0s0oqIZ2CmVtlx9Jkzs0v2jh</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
